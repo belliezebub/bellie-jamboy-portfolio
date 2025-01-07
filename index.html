@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Explore the portfolio of Ginsan, a passionate Graphic Designer and IT Expert based in Cebu City, Philippines. Specialized in graphic design, and IT consulting.">
+    <meta name="keywords" content="Ginsan, Portfolio, Graphic Design, IT Expert, Android Expert, Cebu City, Philippines, Technology, Design Excellence, IT Consulting">
+    <meta name="author" content="Gin Inaba">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Ginsan's Portfolio">
+    <meta property="og:description" content="Explore the portfolio of Ginsan, a passionate Graphic Designer and IT Expert based in Cebu City, Philippines.">
+    <meta property="og:image" content="https://media.licdn.com/dms/image/D5603AQE79E-Rnx_fdA/profile-displayphoto-shrink_800_800/0/1706924166255?e=1727308800&v=beta&t=MWjq23JNlYXgSjX6X1q9_oab0_f7PMVZQt_CkTOgbo0"> 
+    <meta property="og:url" content="https://bit.ly/ginsan-portfolio"> 
+    <meta property="og:type" content="website">
+
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+    <!-- Lightbox JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Local JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Preloading Screen -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(0, 0, 0, 0.6);">
+
+    <div class="container">
+        <a class="navbar-brand" href="#">Bellie Space</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#homepage">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#accomplishments">Reports</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#certificates">Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#timeRecord">DAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Homepage Section -->
+<section id="homepage" class="bg-dark text-white text-center py-5" style="height: 100vh; position: relative;">
+
+    <div class="container h-100 d-flex align-items-center justify-content-center flex-column">
+        <!-- Centered Column for Text -->
+        <div class="col-md-6">
+            <!-- Wrapper for Animated Text -->
+            <div class="mb-4" id="animatedTextWrapper">
+                <h1 class="display-4" style="color: white;">Hi, I'm <span style="color: red;">Bellie</span></h1>
+                <!-- Animated Text (Graphic Designer & IT Expert / Android Expert) -->
+                <p class="lead" id="role"></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- About Me Section -->
+    <section id="about" class="container my-5">
+        <h2 class="display-4 text-center mb-5">About Me</h2>
+        <div class="row">
+            <!-- Left Column (Text Content) -->
+            <div class="col-md-6">
+                <p class="lead">
+                    
+I am a dedicated Frontend Designer and Technical Writer from Consolacion, Cebu City, Philippines. Currently, I am honing my skills as a trainee at Cebu Mitsumi, Inc., where I focus on creating frontend designs and testing applications. My journey into the world of technology began with earning a Diploma in Computer Engineering Technology from CITE Technical Institute Inc.                </p>
+                <!-- Skills Section -->
+        <p class="lead">
+            <strong>Skills:</strong>
+            <br>
+            <i class="fas fa-paint-brush"></i> Frontend Designer
+            <br>
+            <i class="fas fa-pen-alt"></i> Technical Writer
+            <br>
+            <i class="fas fa-laptop-code"></i> Project QA Tester
+        </p>
+    <!-- Resume Download Button -->
+        <a href="https://drive.google.com/file/d/1Rhmkx4o-RnBt_tJlM8xQ9X5mGWv-WINz/view?usp=sharing" target="_blank" download>
+            <button class="btn btn-primary" style="margin-top: 20px; background-image: linear-gradient(to right, #3498db, #2980b9); border: none;">Download Resume</button>
+        </a>
+    </div>
+
+    <!-- Right Column (Image) -->
+<div class="col-md-6 text-center">
+    <img src="img/profile-photo.jpg" alt="This is ME! Bellie!" class="img-fluid rounded-circle mb-3 border-white-with-shadow" style="width: 300px; height: 300px; transform: scaleX(-1);">
+</div>
+    </section>
+
+<!-- Accomplishment Report Section -->
+<section id="accomplishments" class="container my-5">
+    <h2 class="display-4 text-center mb-5">Accomplishment Report</h2>
+
+    <!-- Accomplishment Report Content (Individual Cards in a Row) -->
+    <div class="row">
+        <!-- Accomplishment Card 1 -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Frontend Designer</h5>
+                    <p class="card-text">Designed UI for various Automated Online Form Processing projects at Cebu Mitsumi, Inc.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><i class="fas fa-paint-brush"></i> Web UI designer</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accomplishment Card 2 -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Technical Writing Experience</h5>
+                    <p class="card-text">Successfully accomplished writing various Software documentations for different projects, this includes Software Functionalities Specification andSoftware Design Specifications documents.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><i class="fas fa-pen-alt"></i> Technical Writing Exp.</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accomplishment Card 3 -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Software QA Tester</h5>
+                    <p class="card-text">Equipped with strong Software Quality Assurance skills, I successfully conducted QA testing for over 10 software projects at Cebu Mitsumi, Inc., ensuring high-quality and reliable applications.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><i class="fab fa-laptop-code"></i> Android Expert</small>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Download Button for Overall Report -->
+    <div class="row mb-4">
+        <div class="col-md-6 offset-md-3 text-center">
+            <a href="https://docs.google.com/document/d/1HXOdj3D35Mmp8WPRKQqc5kOhFSXL7p3mVZAFB_0pM1U/edit?tab=t.0" target="_blank" download>
+                <button class="btn btn-primary" style="margin-top: 20px;">Download Overall Accomplishment Report</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Certificates Section -->
+<section id="certificates" class="container my-5">
+    <h2 class="display-4 text-center mb-5">Certificates</h2>
+    <!-- Certificate Cards -->
+    <div class="row">
+        <!-- Certificate Card 1 -->
+<div class="col-md-4 mb-4">
+    <div class="card shadow">
+        <a href="img/dl1.jpg" data-lightbox="certificates" data-title="Cisco Certificate">
+            <img src="img/dl1.jpg" class="card-img-top img-fluid" alt="Certificate Image">
+        </a>
+    </div>
+</div>
+
+<!-- Certificate Card 2 -->
+<div class="col-md-4 mb-4">
+    <div class="card shadow">
+        <a href="img/dl2.jpg" data-lightbox="certificates" data-title="Certificate of Completion">
+            <img src="img/dl2.jpg" class="card-img-top img-fluid" alt="Certificate Image">
+        </a>
+    </div>
+</div>
+
+<!-- Certificate Card 3 -->
+<div class="col-md-4 mb-4">
+    <div class="card shadow">
+        <a href="img/extempo.jpg" data-lightbox="certificates" data-title="Certificate of Participation">
+            <img src="img/extempo.jpg" class="card-img-top img-fluid" alt="Certificate Image">
+        </a>
+    </div>
+</div>
+
+<!-- Certificate Card 3 -->
+<div class="col-md-4 mb-4">
+    <div class="card shadow">
+        <a href="img/leader.jpg" data-lightbox="certificates" data-title="Certificate of Participation">
+            <img src="img/leader.jpg" class="card-img-top img-fluid" alt="Certificate Image">
+        </a>
+    </div>
+</div>
+
+<!-- Certificate Card 3 -->
+<div class="col-md-4 mb-4">
+    <div class="card shadow">
+        <a href="img/oratorical.jpg" data-lightbox="certificates" data-title="Certificate of Participation">
+            <img src="img/oratorical.jpg" class="card-img-top img-fluid" alt="Certificate Image">
+        </a>
+    </div>
+</div>
+</section>
+     <!-- Portfolio Section -->
+<section id="portfolio" class="container my-5">
+    <h2 class="display-4 text-center mb-5">Portfolio</h2>
+    <!-- Project Cards -->
+    <div class="coming-soon">COMING SOON...</div>
+</section>
+
+<!-- Daily Time Record Section -->
+<section id="timeRecord" class="container my-5">
+    <h2 class="display-4 text-center mb-5">Daily Attendance Summary</h2>
+
+    <!-- Right Column (Embed Google Sheets) -->
+    <div class="col-md-12 text-center">
+        <p class="lead mb-4">Check out my daily attendance summary as a trainee at Cebu Mitsumi, Inc. and a student in CITE Technical Institute Inc.</p>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSCj4f67BxQrTazTBLCRn5onyCD5oICQxw4eDxs1SQnUySCkPd_gNSFaDOHGF2-XFFGNfCnVZZiR-Rv/pubhtml?gid=816440206&single=true" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h2 class="display-4 mb-4">What Do You Think?</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <p class="lead">Feel free to reach out to me. Whether you have a question or just want to say hello, I'll get back to you as soon as possible.</p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6 mx-auto">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <div class="mb-3">
+
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="hidden" name="access_key" value="a47473ba-d8f8-442a-9296-e39ec63d532e">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Type your message" required></textarea>
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                        </div>
+
+                        <button type="submit" class="btn btn-light">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="lead mb-0">Connect with me:</p>
+            <!-- Add social media icons (Font Awesome) with links -->
+            <a href="https://web.facebook.com/jabelliebee" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/belliezebub" class="text-white mx-2"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/bellie_joey" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:bellie.jamboy@gmail.com" class="text-white mx-2"><i class="fab fa-google"></i></a>
+        </div>
+        <br>
+        <span>&copy; 2025 Bellie Joey L. Jamboy</span>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js (for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
